@@ -5,8 +5,8 @@ const ContactSection = () => {
     <section id="contact" className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800">Contact Us</h2>
+        <div className=" ml-52 mb-12">
+          <h2 className="text-4xl font-bold text-gray-800 ml-24">Contact Us</h2>
           <p className="text-lg text-gray-600 mt-4">
             Get in touch with us for any queries or information
           </p>
@@ -36,10 +36,10 @@ const ContactSection = () => {
                 </div>
               </div>
               <div className="mb-6">
-                <label className="block text-gray-600 text-sm font-semibold mb-2">Subject</label>
+                <label className="block text-gray-600 text-sm font-semibold mb-2">Branch</label>
                 <input
                   type="text"
-                  placeholder="Subject"
+                  placeholder="Branch"
                   className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:border-blue-500"
                 />
               </div>
