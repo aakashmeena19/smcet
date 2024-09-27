@@ -84,14 +84,14 @@ const ContactSection = () => {
             <div>
               <h3 className="text-2xl font-semibold text-blue-600">Follow Us</h3>
               <div className="flex space-x-4 mt-4">
-                <a href="https://www.google.com/maps/place/Sawai+Madhopur+college+of+engineering+and+Technology./@26.0357218,76.3455707,17z/data=!3m1!4b1!4m6!3m5!1s0x396e2411b94438a1:0x67e94d43e736c6e1!8m2!3d26.0357218!4d76.3481456!16s%2Fg%2F1hhkfz15z?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D" className="text-blue-600 hover:text-blue-500">
-                  <i className="fab fa-facebook-f"></i>
+                <a href="https://www.facebook.com/smenggcollege/" className="text-blue-600 hover:text-blue-500">
+                  <i className="fab fa-facebook-f">facebook</i>
                 </a>
-                <a href="#" className="text-blue-600 hover:text-blue-500">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://wa.me/+919785511054" className="text-blue-600 hover:text-blue-500">
+                  <i className="fab fa-twitter">Whatsapp</i>
                 </a>
-                <a href="#" className="text-blue-600 hover:text-blue-500">
-                  <i className="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/swmenggcollege?igsh=MTQ5NnRqcGM5Zmtzeg==" className="text-blue-600 hover:text-blue-500">
+                  <i className="fab fa-instagram">instagram</i>
                 </a>
                 <a href="#" className="text-blue-600 hover:text-blue-500">
                   <i className="fab fa-linkedin-in"></i>
@@ -100,6 +100,13 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
+        <br></br>
+        <h3 className="text-2xl font-semibold text-blue-600">Click here for route</h3>
+              <div className="flex space-x-4 mt-4">
+                <a href="https://www.google.com/maps/place/Sawai+Madhopur+college+of+engineering+and+Technology./@26.0357218,76.3455707,17z/data=!3m1!4b1!4m6!3m5!1s0x396e2411b94438a1:0x67e94d43e736c6e1!8m2!3d26.0357218!4d76.3481456!16s%2Fg%2F1hhkfz15z?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" className="text-blue-600 hover:text-blue-500">
+                  <i className="fab fa-facebook-f">Map</i>
+                </a>
+                </div>
       </div>
     </section>
   );
