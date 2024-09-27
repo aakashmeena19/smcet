@@ -53,21 +53,21 @@ const FooterSection = () => {
         {/* Social Media */}
         <div className="text-center mt-8">
           <h2 className="text-2xl font-semibold mb-4">Follow Us</h2>
-          <div className="flex justify-center space-x-6">
+          <div className="flex justify-center space-x-3">
             <a href="https://www.facebook.com/smenggcollege/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-facebook-f text-2xl">facebook</i>
+              <i className="fab fa-facebook-f text-xl">facebook</i>
             </a>
             <a href="https://wa.me/+919785511054" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-twitter text-2xl">Whatsapp</i>
+              <i className="fab fa-twitter text-xl">Whatsapp</i>
             </a>
             <a href="https://www.instagram.com/swmenggcollege?igsh=MTQ5NnRqcGM5Zmtzeg==" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-instagram text-2xl">instagram</i>
+              <i className="fab fa-instagram text-xl">instagram</i>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-linkedin-in text-2xl"></i>
+              <i className="fab fa-linkedin-in text-xl"></i>
             </a>
             <a href="https://www.google.com/maps/place/Sawai+Madhopur+college+of+engineering+and+Technology./@26.0357218,76.3455707,17z/data=!3m1!4b1!4m6!3m5!1s0x396e2411b94438a1:0x67e94d43e736c6e1!8m2!3d26.0357218!4d76.3481456!16s%2Fg%2F1hhkfz15z?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-facebook-f text-2xl">Map</i>
+              <i className="fab fa-facebook-f text-xl">Map</i>
             </a>
           </div>
         </div>
