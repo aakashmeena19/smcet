@@ -57,7 +57,7 @@ const AdmissionsSection = () => {
         {/* Call to Action */}
         <div className="text-center mt-12">
           <a
-            href="#apply"
+            href="#contact"
             className="bg-blue-600 text-white py-3 px-6 rounded-md shadow-md hover:bg-blue-500 transition duration-300 ease-in-out"
           >
             Start Your Application

@@ -1,8 +1,12 @@
 import React from 'react';
+import fb from './photos/fb.png'
+import insta from './photos/insta.png'
+import whatsapp from './photos/whatsapp.png'
+import map from './photos/map.png'
 
 const FooterSection = () => {
   return (
-    <footer className="bg-blue-800 text-white py-12 px-6 md:px-12 lg:px-24">
+    <footer className=" bg-blue-800 text-white py-12 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
@@ -51,26 +55,27 @@ const FooterSection = () => {
         </div>
 
         {/* Social Media */}
-        <div className="text-center mt-8">
-          <h2 className="text-2xl font-semibold mb-4">Follow Us</h2>
-          <div className="flex justify-center space-x-3">
-            <a href="https://www.facebook.com/smenggcollege/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-facebook-f text-xl">facebook</i>
-            </a>
-            <a href="https://wa.me/+919785511054" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-twitter text-xl">Whatsapp</i>
-            </a>
-            <a href="https://www.instagram.com/swmenggcollege?igsh=MTQ5NnRqcGM5Zmtzeg==" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-instagram text-xl">instagram</i>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-linkedin-in text-xl"></i>
-            </a>
-            <a href="https://www.google.com/maps/place/Sawai+Madhopur+college+of+engineering+and+Technology./@26.0357218,76.3455707,17z/data=!3m1!4b1!4m6!3m5!1s0x396e2411b94438a1:0x67e94d43e736c6e1!8m2!3d26.0357218!4d76.3481456!16s%2Fg%2F1hhkfz15z?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300">
-              <i className="fab fa-facebook-f text-xl">Map</i>
-            </a>
-          </div>
-        </div>
+<div className="text-center mt-8">
+  <h2 className="text-2xl font-semibold mb-4">Follow Us</h2>
+  <div className="flex justify-center space-x-3">
+    <a href="https://www.facebook.com/smenggcollege/" target="_blank" rel="noopener noreferrer" className="text-white">
+      <img src={fb} className="h-10 w-auto hover:scale-110 transition-transform duration-300" alt="Facebook" />
+    </a>
+    <a href="https://wa.me/+919785511054" target="_blank" rel="noopener noreferrer" className="text-white">
+      <img src={whatsapp} className="h-10 w-auto hover:scale-110 transition-transform duration-300" alt="WhatsApp" />
+    </a>
+    <a href="https://www.instagram.com/swmenggcollege?igsh=MTQ5NnRqcGM5Zmtzeg==" target="_blank" rel="noopener noreferrer" className="text-white">
+      <img src={insta} className="h-10 w-auto hover:scale-110 transition-transform duration-300" alt="Instagram" />
+    </a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white">
+      <i className="fab fa-linkedin-in text-2xl hover:text-yellow-300 transition-colors duration-300"></i>
+    </a>
+    <a href="https://www.google.com/maps/place/Sawai+Madhopur+college+of+engineering+and+Technology./@26.0357218,76.3455707,17z/data=!3m1!4b1!4m6!3m5!1s0x396e2411b94438a1:0x67e94d43e736c6e1!8m2!3d26.0357218!4d76.3481456!16s%2Fg%2F1hhkfz15z?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-white">
+      <img src={map} className="h-10 w-auto hover:scale-110 transition-transform duration-300" alt="Map" />
+    </a>
+  </div>
+</div>
+
 
         {/* Footer Bottom */}
         <div className="text-center mt-12 border-t border-gray-700 pt-6">
