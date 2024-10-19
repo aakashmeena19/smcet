@@ -173,12 +173,14 @@ const ContactSection = () => {
     <section id="contact" className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto ">
         {/* Section Header */}
-        <div className="ml-52 mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 ml-24">Contact Us</h2>
-          <p className="text-lg text-gray-600 mt-4">
-            Get in touch with us for any queries or information
-          </p>
-        </div>
+        <div className="mb-12 mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+  <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center">
+    Contact Us
+  </h2>
+  <p className="text-base sm:text-lg text-gray-600 mt-4 text-center">
+    Get in touch with us for any queries or information
+  </p>
+</div>
 
         {/* Contact Form and Info */}
         <div className="flex flex-col lg:flex-row items-start lg:space-x-12">

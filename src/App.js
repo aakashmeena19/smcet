@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Navbar from './components/navbar'
 import Homeone from './components/home1st'
 import AboutUsSection from './components/about'
@@ -12,26 +13,37 @@ import CivilEngineeringDepartment from './components/civilDepartment'
 import MechanicalEngineeringDepartment from './components/mechanicalDepartment'
 import ElectricalEngineeringDepartment from './components/electricalDepartment'
 import ElectronicsEngineeringDepartment from './components/electronicsDepartment'
+import Newpage from './components/newpage';
 
 function App() {
   return (
-    <div className='App'>
+    
 
+
+     
+   
+
+
+
+
+
+
+    <div className='App'>
     <Navbar/>
    <HomeSection/>
    <AboutUsSection/>
    <AdmissionsSection/>
-
    <ComputerScienceDepartment/>
    <CivilEngineeringDepartment/>
    <MechanicalEngineeringDepartment/>
    <ElectricalEngineeringDepartment/>
    <ElectronicsEngineeringDepartment/>
-
    <ContactSection/>
    <FooterSection/>
     </div>
+    
   )
 }
 
 export default App
+
